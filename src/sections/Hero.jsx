@@ -3,24 +3,27 @@ import * as Icons from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
-  "React",
-  "Next.js",
+  "React.js",
+  "JavaScript (ES6+)",
   "TypeScript",
-  "Node.js",
-  "GraphQL",
-  "PostgreSQL",
-  "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
-  "Vercel",
+  "Redux Toolkit",
+  "Context API",
+  "React Router",
+  "HTML5",
+  "CSS3",
   "Tailwind CSS",
-  "Prisma",
+  "Bootstrap",
+  "REST APIs",
+  "GraphQL",
+  "Apollo Client",
+  "Axios",
+  "React Hook Form",
+  "Yup",
   "Jest",
-  "Cypress",
-  "Figma",
   "Git",
   "GitHub Actions",
+  "Docker",
+  "Postman",
 ];
 
 export const Hero = () => {
@@ -65,7 +68,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • MERN Stack Developer
+                Software Engineer • Frontend Developer
               </span>
             </div>
 
@@ -82,10 +85,8 @@ export const Hero = () => {
               </h1>
 
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Hari Prasath — a Full Stack Developer specializing in
-                React.js, Node.js, Express.js, MongoDB, and MySQL. I build
-                scalable, high-performance web applications and modern digital
-                experiences that deliver real business value.
+               Hi, I'm Hari Prasath — a Frontend Developer specializing in React.js, JavaScript, and TypeScript. 
+               I build responsive, scalable, and high-performance web applications with reusable components, seamless API integrations, and modern user experiences that deliver real business value.
               </p>
             </div>
 
